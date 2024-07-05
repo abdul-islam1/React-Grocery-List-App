@@ -25,7 +25,7 @@ function App() {
     const listItems = [...items, myNewItem]
     setAndSaveItems(listItems)
   }
-
+  // just a git test
 
   const handleCheck = id => {
     const listItems = items.map((item) =>
